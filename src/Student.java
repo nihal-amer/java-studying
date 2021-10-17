@@ -2,13 +2,6 @@
 
 	class Student extends Person{
 		private int[] testScores;
-
-	    	
-	       //Class Constructor
-	       
-	           
-	          
-	       
 	     //  @param firstName - A string denoting the Person's first name.
 	    //   @param lastName - A string denoting the Person's last name.
 	    //  @param id - An integer denoting the Person's ID number.
@@ -20,12 +13,6 @@
 	        this.testScores=scores;
 	    }
 	     
-	    /*	
-	    *   Method Name: calculate
-	    
-	    *   @return A character denoting the grade.
-	    */
-	    // Write your method here
 	    public char calculate()
 	    {
 	     int avg =0;
